@@ -1,0 +1,16 @@
+{
+    "tushare": {
+        "token": "在这里定义tushare的token",
+        "username": "tushare用户名（可以不填）"
+    },
+
+    "mysql": {
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": ""
+    },
+    "check_url": "用于验证ip池ip的某个网址， 如https://www.baidu.com",
+    "day_line_file_prefix": "日线数据文件存储的文件夹路径",
+    "stock_list_file": "存储所有股票信息的csv文件路径"
+}
