@@ -43,7 +43,7 @@ class NetEaseDayLine(object):
         threads = []
         for i in range(self.thread_num):
             start = i * offset
-            end = (i+1) * offset if (i+1)*offset < all_count else -1
+            end = (i+1) * offset if (i+1)*offset < all_count else all_count
             thread = threading.Thread(target=self.craw_block, args=(start, end, codes, i))
             threads.append(thread)
         for t in threads:
